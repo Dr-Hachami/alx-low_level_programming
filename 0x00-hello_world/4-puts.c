@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * 1- main - Entry point
+ * main - Entry point
  *
- * Des2-cription: A C program that prints with put function
+ * Description: A C program that prints with put function
  *
  * Return: Always 0 (Success)
 */
