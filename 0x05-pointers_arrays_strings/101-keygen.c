@@ -11,13 +11,14 @@ int main(void)
 
     srand(time(NULL));
 
-    for (i = 0, sum = 0; sum <= 2772 - 126; i++)
+    for (i = 0, sum = 0; i < PASSWORD_LENGTH - 1; i++)
     {
         password[i] = rand() % 94 + 33;
         sum += password[i];
     }
 
     password[i] = 2772 - sum;
+    password[PASSWORD_LENGTH] = '\0';
 
     printf("%s\n", password);
 
