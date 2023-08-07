@@ -1,11 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <fcntl.h>
-#include <elf.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-
+#include <main.h>
 /**
  * check_if_elf - checks if file is an ELF file by checking if it
  *                contains the magic numbers/file signature of an ELF file
